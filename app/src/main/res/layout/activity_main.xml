@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white2"
+    android:backgroundTintMode="src_in"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:background="#D8BBBB"
+            android:backgroundTint="#B2F8F8F8"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/DBSview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#1AFF0000"
+                android:fontFamily="@font/cousine_bold"
+                android:gravity="center"
+                android:text="@string/bank1"
+                android:textColor="#C2161C"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/subDBSview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#1AFF0000"
+                android:fontFamily="@font/cousine"
+                android:gravity="center"
+                android:text="@string/bank1sub"
+                android:textColor="#C2161C"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/DBSbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#33FF0000"
+                android:fontFamily="@font/cousine_bold"
+                android:text="@string/options"
+                android:textColor="#C01418" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="55dp" />
+
+            <TextView
+                android:id="@+id/OCBCview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#1AFF0000"
+                android:fontFamily="@font/cousine_bold"
+                android:gravity="center"
+                android:text="@string/bank2"
+                android:textColor="#C2161C"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/subOCBCview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#1AFF0000"
+                android:fontFamily="@font/cousine"
+                android:gravity="center"
+                android:text="@string/bank2sub"
+                android:textColor="#C2161C"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/OCBCbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#33FF0000"
+                android:fontFamily="@font/cousine_bold"
+                android:text="@string/options"
+                android:textColor="#C01418" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="55dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#1AFF0000"
+                android:fontFamily="@font/cousine_bold"
+                android:gravity="center"
+                android:text="@string/bank3"
+                android:textColor="#C2161C"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/subUOBview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#1AFF0000"
+                android:fontFamily="@font/cousine"
+                android:gravity="center"
+                android:text="@string/bank3sub"
+                android:textColor="#C2161C"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/UOBbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#33FF0000"
+                android:fontFamily="@font/cousine_bold"
+                android:text="@string/options"
+                android:textColor="#C01418" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="55dp" />
+
+            <TextView
+                android:id="@+id/logoview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/alllogos" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1" />
+</LinearLayout>
